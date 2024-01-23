@@ -1,0 +1,434 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Montserrat;
+    margin: 0;
+    outline: 0;
+}
+
+.trav_info_header_wrap {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,.25);
+    position: relative;
+}
+.trav_info_header_wrap .header_contentwrap {
+    margin-left: 1rem;
+}
+.trav_info_header_wrap .trav_info_trainname {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+    margin: 8px 0;
+}
+.trav_info_header_wrap .trav_info_trainname .trav_info_trainno {
+    font-weight: 400;
+}
+.trav_info_header_wrap .trav_info_train_details {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3e3e52;
+    margin-bottom: 8px;
+}
+.trav_info_header_wrap .trav_info_train_details .trav_info_train_details_default {
+    font-weight: 700;
+}
+.green_styles {
+    color: #38b87c;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.trav_info_header_wrap .trav_info_train_details {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3e3e52;
+    margin-bottom: 8px;
+}
+.trav_info_train_details_wrap_main {
+    background: #fff;
+    position: relative;
+    top: 1rem;
+    border: 1px solid #cacaca;
+    margin-bottom: 1rem;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .dept_arr_time {
+    font-size: 12px;
+    line-height: 15px;
+    color: #3e3e52;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #7f7e8c;
+    position: relative;
+    margin-bottom: 15px;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .small_circle, .trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .small_circle_2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .duration {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .duration .duration_text {
+    background: #fff;
+    padding: 0 1px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #7f7e8c;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .small_circle, .trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_duration_wrap .small_circle_2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap .trv_inf_stn_name {
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+    padding-bottom: 4px;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap .trv_inf_stn_code {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3e3e52;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap .right_align {
+    text-align: right;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap .trv_inf_stn_name {
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+    padding-bottom: 4px;
+}
+.trav_info_train_details_wrap_main .trav_info_train_details_wrap .trav_info_station_names_wrap .trv_inf_stn_code {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3e3e52;
+}
+.trav_info_train_details_wrap_main .trav_info_boarding_station_wrap {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trav_info_train_details_wrap_main .trav_info_boarding_station_wrap .boarding_stn_text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+    padding-bottom: 8px;
+}
+.trav_info_train_details_wrap_main .trav_info_boarding_station_wrap .boarding_stn_name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+    padding-bottom: 4px;
+}
+.trav_info_train_details_wrap_main .trav_info_boarding_station_wrap .boarding_time_date {
+    font-size: 12px;
+    line-height: 15px;
+    color: #7e7e8c;
+}
+.trav_info_train_details_wrap_main .trav_info_boarding_station_wrap .change_stn_text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #1034d9;
+    cursor: pointer;
+}
+.irctc_username_wrap {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.add_passenger_wrap .irctc_username_flex_wrap, .add_pref_wrap .irctc_username_flex_wrap, .contact_details_wrap .irctc_username_flex_wrap, .dst_addr_wrap .irctc_username_flex_wrap, .gst_details_wrap .irctc_username_flex_wrap, .irctc_username_wrap .irctc_username_flex_wrap, .travel_advisory_wrap .irctc_username_flex_wrap {
+    margin-bottom: 8px;
+}
+.irctc_input_wrap {
+    position: relative;
+}
+.input_field {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #bfbfbf;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #3e3e52;
+}
+.input, button, input {
+    font-family: Montserrat;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.irctc_username_wrap .irctc_create_new_button, .irctc_username_wrap .travel_advisory_button, .travel_advisory_wrap .add_gst_details_button, .travel_advisory_wrap .choose_pref_button, .travel_advisory_wrap .irctc_create_new_button, .travel_advisory_wrap .travel_advisory_button {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1034d9;
+    text-align: right;
+}
+ span, .irctc_username_wrap .irctc_create_new_button span, .travel_advisory_wrap .choose_pref_button span, .travel_advisory_wrap .irctc_create_new_button span {
+    cursor: pointer;
+}
+.irctc_username_wrap .irctc_create_new_button, .irctc_username_wrap .travel_advisory_button, .travel_advisory_wrap .add_gst_details_button, .travel_advisory_wrap .choose_pref_button, .travel_advisory_wrap .irctc_create_new_button, .travel_advisory_wrap .travel_advisory_button {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1034d9;
+    text-align: right;
+}
+.add_pref_wrap .choose_pref_button span, .add_pref_wrap .irctc_create_new_button span, .contact_details_wrap .choose_pref_button span, .contact_details_wrap .irctc_create_new_button span, .dst_addr_wrap .choose_pref_button span, .dst_addr_wrap .irctc_create_new_button span, .gst_details_wrap .choose_pref_button span, .gst_details_wrap .irctc_create_new_button span, .irctc_username_modal_wrap .choose_pref_button span, .irctc_username_modal_wrap .irctc_create_new_button span, .irctc_username_wrap .choose_pref_button span, .irctc_username_wrap .irctc_create_new_button span, .travel_advisory_wrap .choose_pref_button span, .travel_advisory_wrap .irctc_create_new_button span {
+    cursor: pointer;
+}
+.POpIB {
+    padding: 1rem;
+    background: #FFFFFF;
+    margin-bottom: 0.5rem;
+}
+.POpIB h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.KorvF {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.5rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-right: -1rem;
+}
+.duihGv {
+    margin-right: 1rem;
+    min-width: 20rem;
+    height: 11.25rem;
+    box-shadow: 0px 0.333333px 1.5px rgba(0,0,0,0.039), 0px 1.25px 5px rgba(0,0,0,0.19);
+    border-radius: 12px;
+}
+.add_passenger_wrap, .add_pref_wrap, .contact_details_wrap, .dst_addr_wrap, .gst_details_wrap, .irctc_username_wrap, .travel_advisory_wrap {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #cacaca;
+}
+.add_passenger_wrap .add_pref_flex_wrap, .add_passenger_wrap .contact_details_flex_wrap, .add_passenger_wrap .dst_addr_flex_wrap, .add_passenger_wrap .gst_details_flex_wrap, .add_passenger_wrap .irctc_username_flex_wrap, .add_passenger_wrap .passenger_flex_wrap, .add_passenger_wrap .travel_advisory_flex_wrap, .add_pref_wrap .add_pref_flex_wrap, .add_pref_wrap .contact_details_flex_wrap, .add_pref_wrap .dst_addr_flex_wrap, .add_pref_wrap .gst_details_flex_wrap, .add_pref_wrap .irctc_username_flex_wrap, .add_pref_wrap .passenger_flex_wrap, .add_pref_wrap .travel_advisory_flex_wrap, .contact_details_wrap .add_pref_flex_wrap, .contact_details_wrap .contact_details_flex_wrap, .contact_details_wrap .dst_addr_flex_wrap, .contact_details_wrap .gst_details_flex_wrap, .contact_details_wrap .irctc_username_flex_wrap, .contact_details_wrap .passenger_flex_wrap, .contact_details_wrap .travel_advisory_flex_wrap, .dst_addr_wrap .add_pref_flex_wrap, .dst_addr_wrap .contact_details_flex_wrap, .dst_addr_wrap .dst_addr_flex_wrap, .dst_addr_wrap .gst_details_flex_wrap, .dst_addr_wrap .irctc_username_flex_wrap, .dst_addr_wrap .passenger_flex_wrap, .dst_addr_wrap .travel_advisory_flex_wrap, .gst_details_wrap .add_pref_flex_wrap, .gst_details_wrap .contact_details_flex_wrap, .gst_details_wrap .dst_addr_flex_wrap, .gst_details_wrap .gst_details_flex_wrap, .gst_details_wrap .irctc_username_flex_wrap, .gst_details_wrap .passenger_flex_wrap, .gst_details_wrap .travel_advisory_flex_wrap, .irctc_username_wrap .add_pref_flex_wrap, .irctc_username_wrap .contact_details_flex_wrap, .irctc_username_wrap .dst_addr_flex_wrap, .irctc_username_wrap .gst_details_flex_wrap, .irctc_username_wrap .irctc_username_flex_wrap, .irctc_username_wrap .passenger_flex_wrap, .irctc_username_wrap .travel_advisory_flex_wrap, .travel_advisory_wrap .add_pref_flex_wrap, .travel_advisory_wrap .contact_details_flex_wrap, .travel_advisory_wrap .dst_addr_flex_wrap, .travel_advisory_wrap .gst_details_flex_wrap, .travel_advisory_wrap .irctc_username_flex_wrap, .travel_advisory_wrap .passenger_flex_wrap, .travel_advisory_wrap .travel_advisory_flex_wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.no_passengers_img_wrap {
+    text-align: center;
+}
+.no_passengers_img_wrap .noPassMsg1 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.no_passengers_img_wrap .noPassMsg2 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e8c;
+}
+.add_passenger_wrap .add_new_passenger_button, .add_pref_wrap .add_new_passenger_button, .contact_details_wrap .add_new_passenger_button, .dst_addr_wrap .add_new_passenger_button, .gst_details_wrap .add_new_passenger_button, .irctc_username_wrap .add_new_passenger_button, .travel_advisory_wrap .add_new_passenger_button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #465986;
+    border-radius: 4px;
+    text-align: center;
+    padding: 14px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.add_pref_wrap, .contact_details_wrap, .dst_addr_wrap, .gst_details_wrap, .irctc_username_modal_wrap, .irctc_username_wrap, .travel_advisory_wrap {
+    margin-top: 1rem;
+}
+.add_passenger_wrap, .add_pref_wrap, .contact_details_wrap, .dst_addr_wrap, .gst_details_wrap, .irctc_username_wrap, .travel_advisory_wrap {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #cacaca;
+}
+.add_pref_wrap .add_gst_details_button, .add_pref_wrap .choose_pref_button, .add_pref_wrap .irctc_create_new_button, .add_pref_wrap .travel_advisory_button, .contact_details_wrap .add_gst_details_button, .contact_details_wrap .choose_pref_button, .contact_details_wrap .irctc_create_new_button, .contact_details_wrap .travel_advisory_button, .dst_addr_wrap .add_gst_details_button, .dst_addr_wrap .choose_pref_button, .dst_addr_wrap .irctc_create_new_button, .dst_addr_wrap .travel_advisory_button, .gst_details_wrap .add_gst_details_button, .gst_details_wrap .choose_pref_button, .gst_details_wrap .irctc_create_new_button, .gst_details_wrap .travel_advisory_button, .irctc_username_modal_wrap .add_gst_details_button, .irctc_username_modal_wrap .choose_pref_button, .irctc_username_modal_wrap .irctc_create_new_button, .irctc_username_modal_wrap .travel_advisory_button, .irctc_username_wrap .add_gst_details_button, .irctc_username_wrap .choose_pref_button, .irctc_username_wrap .irctc_create_new_button, .irctc_username_wrap .travel_advisory_button, .travel_advisory_wrap .add_gst_details_button, .travel_advisory_wrap .choose_pref_button, .travel_advisory_wrap .irctc_create_new_button, .travel_advisory_wrap .travel_advisory_button {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1034d9;
+    text-align: right;
+}
+.add_pref_wrap .choose_pref_button span, .add_pref_wrap .irctc_create_new_button span, .contact_details_wrap .choose_pref_button span, .contact_details_wrap .irctc_create_new_button span, .dst_addr_wrap .choose_pref_button span, .dst_addr_wrap .irctc_create_new_button span, .gst_details_wrap .choose_pref_button span, .gst_details_wrap .irctc_create_new_button span, .irctc_username_modal_wrap .choose_pref_button span, .irctc_username_modal_wrap .irctc_create_new_button span, .irctc_username_wrap .choose_pref_button span, .irctc_username_wrap .irctc_create_new_button span, .travel_advisory_wrap .choose_pref_button span, .travel_advisory_wrap .irctc_create_new_button span {
+    cursor: pointer;
+}
+d_pref_wrap, .contact_details_wrap, .dst_addr_wrap, .gst_details_wrap, .irctc_username_modal_wrap, .irctc_username_wrap, .travel_advisory_wrap {
+    margin-top: 1rem;
+}
+.add_passenger_wrap, .add_pref_wrap, .contact_details_wrap, .dst_addr_wrap, .gst_details_wrap, .irctc_username_wrap, .travel_advisory_wrap {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #cacaca;
+}
+.contact_details_wrap .add_pref_flex_wrap, .contact_details_wrap .contact_details_flex_wrap, .contact_details_wrap .dst_addr_flex_wrap, .contact_details_wrap .gst_details_flex_wrap, .contact_details_wrap .irctc_username_flex_wrap, .contact_details_wrap .passenger_flex_wrap, .contact_details_wrap .travel_advisory_flex_wrap, .dst_addr_wrap .add_pref_flex_wrap, .dst_addr_wrap .contact_details_flex_wrap, .dst_addr_wrap .dst_addr_flex_wrap, .dst_addr_wrap .gst_details_flex_wrap, .dst_addr_wrap .irctc_username_flex_wrap, .dst_addr_wrap .passenger_flex_wrap, .dst_addr_wrap .travel_advisory_flex_wrap, .gst_details_wrap .add_pref_flex_wrap, .gst_details_wrap .contact_details_flex_wrap, .gst_details_wrap .dst_addr_flex_wrap, .gst_details_wrap .gst_details_flex_wrap, .gst_details_wrap .irctc_username_flex_wrap, .gst_details_wrap .passenger_flex_wrap, .gst_details_wrap .travel_advisory_flex_wrap, .irctc_username_wrap .add_pref_flex_wrap, .irctc_username_wrap .contact_details_flex_wrap, .irctc_username_wrap .dst_addr_flex_wrap, .irctc_username_wrap .gst_details_flex_wrap, .irctc_username_wrap .irctc_username_flex_wrap, .irctc_username_wrap .passenger_flex_wrap, .irctc_username_wrap .travel_advisory_flex_wrap, .travel_advisory_wrap .add_pref_flex_wrap, .travel_advisory_wrap .contact_details_flex_wrap, .travel_advisory_wrap .dst_addr_flex_wrap, .travel_advisory_wrap .gst_details_flex_wrap, .travel_advisory_wrap .irctc_username_flex_wrap, .travel_advisory_wrap .passenger_flex_wrap, .travel_advisory_wrap .travel_advisory_flex_wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.input_field {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #bfbfbf;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #3e3e52;
+}
+.input, button, input {
+    font-family: Montserrat;
+}
+.gst_address_main_wrapper {
+    padding-bottom: 1rem;
+}
+.gst_address_main_wrapper .gst_prefilled_city_state_wrap {
+    padding-top: 1.5rem;
+    margin-bottom: -1rem;
+}
+.gst_address_main_wrapper .gst_prefilled_city_state_wrap .gst_prefill_head {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e8c;
+}
+.gst_address_main_wrapper .gst_prefilled_city_state_wrap .gst_prefill_value_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gst_address_main_wrapper .gst_prefilled_city_state_wrap .gst_prefill_value_wrap .gst_prefill_value {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52;
+    opacity: .38;
+}
+.gst_address_main_wrapper .gst_prefilled_city_state_wrap .gst_prefill_value_wrap .gst_prefill_edit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1034d9;
+}
+.travel_info_page .travel_agree_content {
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+    padding: 1rem 1rem 2rem;
+}
+.travel_info_page .travel_agree_content a {
+    text-decoration: none;
+}
+.proceed_block_wrap {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.proceed_block_wrap .proceed_content {
+    width: 60%;
+    background: #fff;
+    padding: 8px 16px;
+}
+.proceed_block_wrap .proceed_amt_text, .proceed_block_wrap .proceed_fare {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+}
+.proceed_block_wrap .proceed_fare {
+    color: #d84e55;
+}
+.proceed_block_wrap .proceed_amt_text, .proceed_block_wrap .proceed_fare {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3e3e52;
+}
+.proceed_block_wrap .proceed_text_person {
+    font-weight: 400;
+}
+.proceed_block_wrap .proceed_tax {
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
+}
+.proceed_block_wrap .proceed_button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .5px;
+    color: #fff;
+    background: #d84e55;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* .trav_search_footer_wrap {
+    position: relative;
+    top: 4.5rem;
+} */

@@ -1,0 +1,192 @@
+
+<app-navbar></app-navbar>
+<section >
+   
+
+    <div style="position: relative; width: 100%;">
+        <img style="width: 100%; height: 500px;" src="https://wallpapercave.com/dwp1x/wp9215235.jpg" alt="#" />
+
+        <div class="container" style="background: rgba(255, 255, 255, 0.8); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 15px;">
+            <ul class="inline-list" style="list-style-type: none; border: none; padding: 0;  display: flex; justify-content: space-around; font-weight: bolder; font-family: sans-serif;">
+                <button style="border-radius: 5px; border: none;" routerLink="/buses">  <li> <img style="width: 25px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWOhkNUNiNxqwK9NmLRGoWEKJ1g7i40vnS0Q&usqp=CAU" alt=""> Bus</li></button>
+            </ul>
+        </div>
+        
+    
+        <div style="position: absolute; top: 53%; left: 50%; transform: translate(-50%, -50%); background: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; margin-top: 95px;">
+            
+
+
+            <div class="container">
+               
+                
+                    
+                    <div class="row">
+                        
+                    <div class="autocomplete-container">
+                        <input type="text" [formControl]="searchControl" placeholder="From" style="border: none;">
+                        <ul *ngIf="filteredOptions | async as options">
+                            <li *ngFor="let option of options" (click)="onSelect(option)">
+                                {{ option.CityName }}
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="autocomplete-container">
+  <!-- <input type="text" [value]="selectedCityName" (input)="onSearchChange($event.target.value)" 
+         placeholder="From" style="border: none;"> -->
+
+
+         <!-- <input type="text" [value]="selectedCityName" 
+      (input)="onSearchChange($event)" 
+      placeholder="From" style="border: none;"> -->
+
+  <ul *ngIf="filteredOptions | async as options">
+    <li *ngFor="let option of options" (click)="onSelect(option)">
+      {{ option.CityName }}
+    </li>
+  </ul>
+
+  <!-- Hidden input to store the actual CityId -->
+  <input type="hidden" [formControl]="searchControl">
+</div>
+
+
+                    <div class="autocomplete-container">
+                        <input type="text" [formControl]="destinationControl" placeholder="To" style="border: none;">
+                        <ul *ngIf="filtereddestination | async as options">
+                            <li *ngFor="let option of options" (click)="onSelect1(option)">
+                                {{option.CityName}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="autocomplete-container">
+                        
+                        <input type="date" class="form-control" [formControl]="departdate" placeholder="Date"
+                        aria-label="Date" style="width: 50px;">
+                    </div>
+                    
+                    <div class="autocomplete-container">
+                        
+                    
+
+                        <button style="color: white; background: #dc3545; border: none; border-radius: 5px; max-width:80px; margin-top: 7px;"
+                         (click)="searchBusess()">search</button>
+                         
+                        <!-- <button style="color: white; background: #dc3545; border: none; border-radius: 5px; max-width:80px; margin-top: 7px;"
+                        routerLink="/ride" >search</button> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+ </section>
+
+
+
+ <div *ngIf="busSearchResults && busSearchResults.length">
+    <div *ngFor="let bus of busSearchResults">
+      <!-- Display bus details here. Adjust according to your data structure -->
+      <p>{{ bus.travelname }} - {{ bus.departureTime }} to {{ bus.arrivalTime }}</p>
+    </div>
+  </div>
+  <div *ngIf="!busSearchResults || !busSearchResults.length">
+    <p>No results found.</p>
+  </div>
+  
+  
+
+
+  
+  <!-- <div>
+    <p>Searching buses with:</p>
+    <ul>
+        <li>From (Origin): {{ searchControl.value }}</li>
+        <li>To (Destination): {{ destinationControl.value }}</li>
+        <li>Departure Date: {{ departdate.value | date }}</li>
+    </ul>
+</div> -->
+
+
+ <div class="card-container" style="margin-top: 20px;">
+    <div class="row" style="margin-top: 10px;">
+        <div class="col text-center">
+            <div class="section_subtitle">simply amazing places</div>
+            <div class="section_title">
+                <h2>Popular Destinations</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-row">
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/historical-shaniwar-wada-palace-pune-maharastra-india-garden-shaniwarwada-fortification-city-maharashtra-built-163963152.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;">Pune</h5>
+                <p class="card-text">Pune is a bustling city in the western Indian state of Maharashtra, known for its rich history, vibrant culture, and academic prominence. It's often referred to as the "Oxford of the East" due to its well-respected universities and colleges. </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F7xZ48abwAAgNst.jpg/800px-F7xZ48abwAAgNst.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;">Mumbai</h5>
+                <p class="card-text">
+                    Mumbai, the capital city of the Indian state of Maharashtra, is a bustling metropolis renowned for its vibrant culture, historic landmarks, and as the heart of the Bollywood film industry.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2021/07/20184714/All-about-the-Delhi-Red-Fort-or-Lal-Kila-FB-1200x700-compressed-2.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;"> Delhi</h5>
+                <p class="card-text">Delhi, the capital city of India, is a vibrant metropolis that blends an ancient cultural heritage with modernity. Known for its rich history and architectural marvels, Delhi is home to several UNESCO World Heritage Sites, including the Red Fort, Qutub Minar, and Humayun's Tomb.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row of Cards -->
+    <div class="card-row">
+
+        <div class="card">
+            <img src="https://hyderabadtourpackage.in/images/places-to-visit/charminar-hyderabad-entryfee-timings-tour-package-header.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;">Hyderabad</h5>
+                <p class="card-text">Hyderabad, the capital city of the Indian state of Telangana, is known for its rich history, culture, and architectural grandeur. Renowned as the "City of Pearls" and "City of Nizams," Hyderabad boasts a unique blend of ancient heritage and modernity.</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.godrej-ananda.net.in/images/other/how-bangalore-got-its-name.webp"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;">Bangalore</h5>
+                <p class="card-text">
+                    Bangalore, also known as Bengaluru, is the capital city of the Indian state of Karnataka. It is renowned as the "Silicon Valley of India" due to its thriving IT industry and numerous tech companies</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Kolkata_City_skyline_from_Hoogly_bridge.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bolder;">Kolkata</h5>
+                <p class="card-text">Kolkata, also known as Calcutta, is a vibrant and culturally rich city located in the eastern part of India, in the state of West Bengal. It is known for its historical significance as the former capital of British India and for being the birthplace of iconic figures like Rabindranath Tagore and Mother Teresa.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+  
+  
+ <app-footer></app-footer>

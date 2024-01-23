@@ -1,0 +1,8 @@
+/* Custom CSS to remove background color and outline */
+.custom-dropdown-button {
+    background-color: transparent !important; /* Remove background color */
+    border: none !important; /* Remove outline */
+    box-shadow: none !important; /* Remove any box shadow (if present) */
+    color: white !important; /* Set text color if needed */
+}
+

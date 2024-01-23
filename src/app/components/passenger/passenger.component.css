@@ -1,0 +1,302 @@
+#AD186900_1 .adi_outer_css {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-size: 14px!important;
+    font-weight: 400!important;
+    line-height: 1.6!important;
+    color: #4f4f4f!important;
+}
+body {
+    background: #fff!important;
+    padding: 0!important;
+    margin: 0!important;
+    font-family: sans-serif!important;
+}
+
+#AD186900_1 .adi_outer_css {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+#AD186900_1 .form-title h3 {
+    font-size: 22px;
+    position: relative;
+    clear: both;
+    border-bottom: 0 solid #f5f5f5;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#AD186900_1 .form-title h3, #AD186900_1 .h3Titels {
+    font-weight: 600;
+    color: #000;
+}
+
+#AD186900_1 .table {
+    margin-bottom: 0;
+}
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+#AD186900_1 .descriptionWrapperpadaa {
+    padding-right: 10px;
+}
+#AD186900_1 .adi-width-70 {
+    width: 70%;
+}
+#AD186900_1 .adi-left {
+    float: left;
+}
+
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+#AD186900_1 .radio2, #AD186900_1 .term_n_cond {
+    color: #000;
+    font-size: 13px;
+}
+#AD186900_1 .radio2, #AD186900_1 .text-charged, #AD186900_1 .textcss {
+    font-weight: 500;
+}
+#AD186900_1 .final-price, #AD186900_1 .radio2 {
+    display: flex;
+}
+#AD186900_1 .adi-left {
+    float: left;
+}
+#AD186900_1 p {
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+#AD186900_1 #send_emailsss {
+    margin: 3px 5px 0 0;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#AD186900_1 .payNowBtn12 {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+#AD186900_1 .button_bookingsubmit {
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    background-position: center;
+    transition: background .3s;
+    border: none;
+    padding: 12px 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 43px;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+    outline: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#AD186900_1 .pricecharge {
+    font-size: 13px;
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#AD186900_1 .pricecharge p {
+    padding-bottom: 8px;
+    margin: 0;
+    border-bottom: 1px dotted rgba(232,231,231,.37);
+    font-size: 14px;
+    color: #9e9e9e;
+}
+#AD186900_1 p {
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+#AD186900_1 .floatright, #AD186900_1 .translated-rtl .oneDates {
+    float: right;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#AD186900_1 .pricecharge p {
+    padding-bottom: 8px;
+    margin: 0;
+    border-bottom: 1px dotted rgba(232,231,231,.37);
+    font-size: 14px;
+    color: #9e9e9e;
+}
+#AD186900_1 p {
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+#AD186900_1 .final-price {
+    background: #fcfcfc;
+    border-top: 1px dotted #ccc;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#AD186900_1 .final-price, #AD186900_1 .radio2 {
+    display: flex;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+#AD186900_1 .final_text-charged {
+    width: 100%;
+    float: left;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#AD186900_1 .hotelinformbookingcss {
+    float: left;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    background: #fff;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+#AD186900_1 .adi_show-map-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    align-items: center;
+}
+#AD186900_1 .adi_show-map-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+    width: 100%;
+    float: left;
+}
+
+#AD186900_1 .adi_busname {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+#AD186900_1 .addressiconcsstwo {
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+#AD186900_1 .div2bus p {
+    margin: 0;
+    font-size: 13px;
+}
+#AD186900_1 .adi_bus_time {
+    font-size: 19px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+#AD186900_1 p {
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.div2bus{display: flex; flex: 1; flex-direction: row;}

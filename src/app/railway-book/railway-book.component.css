@@ -1,0 +1,184 @@
+.search_tupple_wrapper {
+    background: #fff;
+    margin-bottom: 0.5rem;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Montserrat;
+    margin: 0;
+    outline: 0;
+/* background-color: #000; */
+
+}
+
+.search_tupple_wrapper .search_tupple_content {
+    padding: 24px 16px 16px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.search_tupple_wrapper .search_tupple_content .srp_trainname_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.search_tupple_wrapper .search_tupple_content .srp_trainname_wrap .srp_train_name_code {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+.search_tupple_wrapper .search_tupple_content .srp_trainname_wrap .srp_train_code {
+    color: #7f7e8c;
+    font-weight: 400;
+}
+.search_tupple_wrapper .search_tupple_content .srp_trainname_wrap .srp_week_day_wrap {
+    font-size: 11px;
+}
+
+
+.bold {
+    font-weight: 700!important;
+    color: #7f7e8c!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.search_tupple_wrapper .search_tupple_content .srp_trainname_wrap .srp_week_day_wrap {
+    font-size: 11px;
+}
+
+.srp_train_arrival_date {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #7f7e8c;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap .srp_departure_time {
+    font-weight: 700;
+    font-size: 16px;
+    color: #3e3e52;
+    margin-right: 16px;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap .srp_distance_wrap {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap .srp_distance_wrap {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap .srp_distance_wrap .right_arrow {
+    width: 6px;
+    height: 6px;
+    transition: .5s;
+    float: left;
+    box-shadow: -1px 1px 0 #cacaca;
+    transform: rotate(-135deg);
+    margin-left: -8px;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap .srp_distance_wrap .srp_distance_text {
+    font-size: 12px;
+    position: absolute;
+    background: #fff;
+    padding: 0 4px;
+    color: #7f7e8c;
+}
+.search_tupple_wrapper .search_tupple_content .srp_src_dst_stations {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e7e8c;
+    margin-bottom: 1rem;
+}
+.search_tupple_wrapper .search_tupple_content .srp_timimngs_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_tupple_wrapper .search_tupple_content .srp_src_dst_stations {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e7e8c;
+    margin-bottom: 1rem;
+}
+.searchtrainClasses {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    padding-top: 1rem;
+    margin-right: -1rem;
+}
+.searchtrainClasses .green_styles {
+    color: #38b87c;
+    background: #e3fff2;
+    border: 1px solid #38b87c;
+}
+.search_classes_main_wrap {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.search_classes_main_wrap .search_fare_class_wrap {
+    font-weight: 700;
+    font-size: 12px;
+    color: #3e3e52;
+    padding: 15px 15px 10px;
+    width: 150px;
+    min-height: 66px;
+}
+.search_classes_main_wrap .display_flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+}
+.search_classes_main_wrap .search_fare_class_wrap {
+    font-weight: 700;
+    font-size: 12px;
+    color: #3e3e52;
+    padding: 15px 15px 10px;
+    width: 150px;
+    min-height: 66px;
+}
+.search_classes_main_wrap .search_fare_class_wrap .availability_status_wrap {
+    font-weight: 700;
+}
+.searchtrainClasses .no_border {
+    border: none;
+}
+.searchtrainClasses .green_styles {
+    color: #38b87c;
+    background: #e3fff2;
+    border: 1px solid #38b87c;
+}
+.search_classes_main_wrap .search_fare_class_wrap .availability_status_wrap {
+    font-weight: 700;
+}
+
+.updated_time {
+    font-size: 10px;
+    color: #7f7e8c;
+    margin-left: 1rem;
+} 

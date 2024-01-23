@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bus-section {
+    padding: 20px;
+}
+
+.departure-time-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .departure-time-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .time-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .time-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .bus-type-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bus-type-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .type-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .type-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .container {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+}
+.dashboard {
+    flex-grow: 1;
+}
+.departure-time-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .time-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .time-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .bus-type-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bus-type-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .type-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .type-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .seat-availability-filter{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+
+  }
+  .seat-availability-filter h3{
+    margin-bottom: 10px;
+  }
+  .Arrival-time-filter{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .Arrival-time-filter h3{
+    margin-bottom: 10px;
+  }
+ 
+  lement.style {
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+#AD186900_1 .adiFullp_lips {
+    width: 100%;
+    float: left;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 50%);
+    background: #fff;
+    margin-bottom: 10px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+flightriuturcsss, #AD186900_1 .flights_left_70_padO, #AD186900_1 .pricelistCls11, #AD186900_1 .pricemanagecss .pricelistCls11 {
+  position: relative;
+}
+
+#AD186900_1 .flights_left_20 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+  float: left;
+}
+#AD186900_1 .desktopkaeliy {
+  height: 56px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img, svg {
+  vertical-align: middle;
+}
+#AD186900_1 .flightnumbercss1 {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  color: #363636;
+  font-weight: 600;
+}
+#AD186900_1 .flightnumbercss2 {
+  color: #949494;
+  font-weight: 600;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+#AD186900_1 .flights_left_80 {
+  width: 80%;
+  float: left;
+  position: relative;
+  padding: 20px;
+  border-left: 2px dashed #d0d0d0;
+}
+#AD186900_1 .adi-full, #AD186900_1 .maincabinclscss ul li, #AD186900_1 .tripbutton {
+  width: 100%;
+  float: left;
+}
+#AD186900_1 .datetotals {
+  float: left;
+  font-size: 12px;
+  color: #949494;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 0;
+  padding: 0;
+}
+#AD186900_1 .datetotalss {
+  font-size: 13px;
+  color: #655e5e;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 0;
+  padding: 0;
+  text-transform: capitalize;
+  position: relative;
+  display: flex;
+  float: right;
+}
+#AD186900_1 p {
+  line-height: 1.6;
+  margin-bottom: 0px;
+}
+#AD186900_1 .datetotalss img {
+  width: 21px;
+  margin-right: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img, svg {
+  vertical-align: middle;
+}
+
+/* .th{
+  display: flex;
+} */
+
+
+
+/* Basic styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.sidebar, .dashboard {
+  flex: 1; /* Makes both divs take equal space */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .sidebar {
+      flex-basis: 25%; /* Sidebar takes 25% of the space */
+  }
+  .dashboard {
+      flex-basis: 75%; /* Dashboard takes the rest 75% */
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .sidebar, .dashboard {
+      flex-basis: 100%; /* Both take full width */
+  }
+}
+
+
+/* Hide the footer icon on larger screens */
+.footer-icon {
+  display: none;
+}
+
+/* Show the footer icon on screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .footer-icon {
+      display: block;
+      /* Additional styling here */
+  }
+}

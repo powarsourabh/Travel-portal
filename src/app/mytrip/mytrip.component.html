@@ -1,0 +1,68 @@
+<app-navbar></app-navbar>
+
+
+<div class="container" style="margin-top:100px;">
+    <div class="sidebar" style="background-color:#ced4da;">
+        <!-- Sidebar content here -->
+        <ul>
+            <li><a >sourabhp2017</a></li> <br>
+            <li routerLink="/mytrip"><a >My Trips</a></li> <br>
+            <li routerLink="/coupon"><a >Coupon & offers</a></li> <br>
+            <li><a>Link 4</a></li> <br>
+        </ul>
+    </div>
+    <div class="dashboard">
+        <!-- Main dashboard content here -->
+        <h5>My Trip</h5>
+        
+        <!-- <form class="container mt-5 mb-5 needs-validation" novalidate>
+            <div class="row g-3">
+        
+                <div class="col-md-4 col-12">
+                    <label for="validationCustom01" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <label for="validationCustom02" class="form-label">Date Of Birth</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="26 january 1998" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+        
+                <div class="label">
+        <label class="">Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                          Female
+                        </label>
+                    </div>
+                </div>
+        
+        
+               
+                <div class="col-12">
+            
+                    <button *ngIf="!editMode" class="btn btn-success" (click)="toggleEditMode()">Edit</button>
+<div *ngIf="editMode">
+    <button class="btn btn-primary" (click)="saveChanges()">Save</button>
+    <button class="btn btn-danger" (click)="cancelChanges()">Cancel</button>
+</div>
+
+                </div>
+            </div>
+        </form> -->
+    </div>
+</div>
+
+<app-footer></app-footer>

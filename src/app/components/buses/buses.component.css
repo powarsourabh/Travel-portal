@@ -1,0 +1,257 @@
+/* .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.form-control {
+    flex: 1 1 auto;
+    min-width: 0; 
+}
+
+.search-button {
+    color: white;
+    background: #dc3545;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .form-control,
+    .search-button {
+        flex-basis: 100%;
+    }
+} */
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-control {
+    flex: 1;
+    min-width: 130px; 
+}
+
+.search-button {
+    color: white;
+    background: #dc3545;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    flex-shrink: 0; 
+}
+
+
+@media (max-width: 768px) {
+    .form-control,
+    .search-button {
+        flex-basis: 100%; 
+    }
+}
+
+inline-list li{
+    margin-right: 10px;
+}
+
+.destinations {
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 115px;
+    padding-bottom: 116px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+
+    gap: 20px;
+}
+
+.card {
+    /* width: 18rem; */
+    max-width: 100%;
+    height: auto;
+}
+.card-img-top {
+    width: 100%; /* Make image take full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 0.25rem; /* Slight rounding at the top corners */
+    border-top-right-radius: 0.25rem;
+}
+
+.card-body {
+    padding: 1rem; /* Spacing inside the card body */
+    background-color: #fff; /* Background color for the card body */
+    border-bottom-left-radius: 0.25rem; /* Slight rounding at the bottom corners */
+    border-bottom-right-radius: 0.25rem;
+}
+
+.btn {
+    display: inline-block; /* Button to be inline */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    margin-top: 1rem; /* Margin at the top */
+    font-size: 1rem; /* Font size for the button text */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Background color */
+    border: none; /* No border */
+    border-radius: 0.25rem; /* Rounded corners */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* No underline on the text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Slightly darker background on hover */
+}
+
+.card {
+    width: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Initial shadow for depth */
+    margin: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Increase shadow for a lifting effect */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.card-body {
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button background */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px); /* two cards in a row */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex-basis: 100%; /* one card per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .input-group {
+        width: 100%;
+        /* flex-direction: column; */
+        height: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+ul {
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #eee;
+  }
+  
+  .autocomplete-container {
+    position: relative; /* Allows absolute positioning inside the container */
+  }
+  
+  .autocomplete-container ul {
+    position: absolute;
+    top: 100%; /* Position right below the input field */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensures the list appears on top of other elements */
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto; /* Adds scroll */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .autocomplete-container li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-container li:hover {
+    background-color: #eee;
+  }
+  .row {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Distributes space between the children */
+  }
+  
+  .autocomplete-container {
+    flex: 1; /* Each child will take equal space */
+    /* Other styles... */
+  }
+  
+  /* Include other styles you have for autocomplete-container, ul, and li */
+  

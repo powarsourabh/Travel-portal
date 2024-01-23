@@ -1,0 +1,309 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bus-section {
+    padding: 20px;
+}
+
+.departure-time-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .departure-time-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .time-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .time-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .bus-type-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bus-type-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .type-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .type-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .container {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+}
+.dashboard {
+    flex-grow: 1;
+}
+.departure-time-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .time-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .time-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .bus-type-filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bus-type-filter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .type-options label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .type-options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .seat-availability-filter{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+
+  }
+  .seat-availability-filter h3{
+    margin-bottom: 10px;
+  }
+  .Arrival-time-filter{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .Arrival-time-filter h3{
+    margin-bottom: 10px;
+  }
+ 
+  .d-color {
+    color: #3e3e52;
+}
+.f-bold {
+    font-weight: 700;
+}
+.modify-sec-onward {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 10px 15px 25px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.w-60 {
+  width: 60%;
+}
+.fl {
+  float: left;
+}
+.w-60 {
+  width: 60%;
+}
+.fl {
+  float: left;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.modify-sec .onward, .modify-sec .return {
+  padding-top: 5px;
+}
+.fl {
+  float: left;
+}
+.d-block {
+  display: inline-block;
+}
+
+.modify-sec .jour-info .h2-tag-seo {
+  font-size: 14px;
+  display: inline;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.modify-sec .icon-right-arrow {
+  padding: 0 15px;
+}
+.modify-sec .icon {
+  font-weight: 700;
+}
+.modify-sec .jour-info .prev {
+  padding-left: 15px;
+}
+.modify-sec .jour-info .next, .modify-sec .jour-info .prev {
+  cursor: pointer;
+}
+.modify-sec .icon {
+  font-weight: 700;
+}
+.modify-sec .jour-info .dateDispOnw {
+  position: relative;
+}
+.modify-sec .searchDate {
+  background: none;
+  outline: 0 none!important;
+  border: 0 none;
+  width: 80px;
+  vertical-align: middle;
+  text-align: center;
+}
+input {
+  line-height: normal;
+}
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.modify-sec .jour-info .searchday {
+  position: absolute;
+  width: 56px;
+  font-size: 10px;
+  top: 18px;
+  right: -6px;
+}
+.modify-sec .jour-info .next, .modify-sec .jour-info .prev {
+  cursor: pointer;
+}
+.modify-sec .icon {
+  font-weight: 700;
+}
+.modify-sec .jour-info .g-button {
+  margin-left: 24px;
+}
+.fl {
+  float: left;
+}
+.g-button {
+  border: 1px solid #3e3e52;
+  border-radius: 3px;
+  background-color: #f8f4f4;
+  padding: 5px 25px;
+  display: inline-block;
+  font-weight: 400;
+}
+.button, .g-button {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+ 
+  .sidebar h3 {
+      font-size: smaller; /* Adjust header size */
+  }
+  .sidebar .time-options, .sidebar .type-options {
+      display: flex;
+      flex-direction: column; /* Stack options vertically */
+  }
+  /* Other responsive adjustments */
+}
+
+
+    /* mobile view */
+
+
+/* Base styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 1; /* Adjust as per requirement */
+  padding: 20px;
+}
+
+.dashboard {
+  flex: 3; /* Adjust as per requirement */
+  padding: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .sidebar,
+  .dashboard {
+      flex: 1 0 100%;
+  }
+}
+
+/* Style adjustments for checkboxes and labels for better visibility */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  display: block; /* Each label on a new line */
+  margin-bottom: 10px;
+}
+
+/* You can add more styles here for better appearance */
+
+/* Base Styles */
+.dashboard .card {
+  margin-left: 2px;
+}
+
+/* Responsive table */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .dashboard .card-body {
+      padding: 15px;
+  }
+
+  .dashboard .table th, .dashboard .table td {
+      padding: 8px; /* Smaller padding for table cells */
+  }
+
+  .dashboard button {
+      padding: 10px 15px; /* Larger buttons for easier tapping */
+      font-size: 14px; /* Larger font size */
+  }
+
+  .modify-sec-onward .h2-tag-seo, .modify-sec-onward .dateDispOnw {
+      display: block; /* Stack elements vertically */
+      margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,309 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  .plane {
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .exit {
+    position: relative;
+    height: 50px;
+  }
+  .exit:before, .exit:after {
+    content: "EXIT";
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: block;
+    position: absolute;
+    background: green;
+    color: white;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .exit:before {
+    left: 0;
+  }
+  .exit:after {
+    right: 0;
+  }
+  
+  /* .fuselage {
+    border-right: 5px solid #d8d8d8;
+    border-left: 5px solid #d8d8d8;
+  } */
+  
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  
+  
+  .cabin {
+    
+  }
+
+
+  .seat {
+    display: flex;
+    flex: 0 0 14.28571428571429%;
+    padding: 5px;
+    border: 1px solid black;
+    position: relative;
+  }
+  .seat:nth-child(3) {
+    margin-right: 14.28571428571429%;
+  }
+  .seat input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+  }
+  .seat input[type=checkbox]:checked + label {
+    /* background: #bada55; */
+    background: green;
+
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+  }
+  .seat input[type=checkbox]:disabled + label {
+    background: #dddddd;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  .seat input[type=checkbox]:disabled + label:after {
+    content: "X";
+    text-indent: 0;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .seat input[type=checkbox]:disabled + label:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+  .seat label {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 4px 0;
+    background: gray;
+    border-radius: 5px;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+  }
+  .seat label:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    top: 1px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+  }
+  .seat label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #5C6AFF;
+  }
+  
+  #flightTable th, #flightTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.wd2{
+  color: pink;
+}
+
+
+#AD186900_1 .selectedSeats1 {
+  width: 49%;
+  float: right;
+  padding: 10px 0;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+  @-webkit-keyframes rubberBand {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes rubberBand {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }
+  
+
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .seat {
+  
+    color: #888;
+  }
+  
+  .seatsmall dfn.wd1 {
+    background-position: 0 0;
+}
+.seatsmall li dfn, .seatbig li dfn {
+    float: left;
+    width: 20px;
+    height: 20px;
+    /* list-style: none; */
+}
+.seatsmall dfn, seatdesp .seatbig dfn {
+    background: url(https://bus.travelboutiqueonline.com/Images/transparent-backgro-seatlayout.gif) no-repeat left top;
+}
+
+
+
+.outerseat {
+  border: 1px solid #e0e0e0;
+  width: 49%;
+  padding: 10px;
+  float: left;
+  height: 143px;
+  position: relative;
+}
+
+.busSeatlft {
+  width: 3%;
+  float: left;
+  margin: 0;
+  left: -9px;
+  position: absolute;
+  background: #fff;
+  top: 44px;
+}
+.busSeatrgt {
+  width: 97%;
+  float: right;
+  margin-left: 0;
+}
+.busSeat {
+  padding: 0;
+  margin-bottom: 0;
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.selectedSeats1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: start; /* Aligns items to the start of the container */
+}
